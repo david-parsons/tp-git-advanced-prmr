@@ -15,4 +15,4 @@ class Sphere(object):
         return 4/3 * 3.1416 * self.radius ** 3
         
     def diameter(self):
-        return self.radius
+        return self.radius*2.
